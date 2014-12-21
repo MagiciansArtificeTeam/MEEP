@@ -16,7 +16,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.IIcon;
 
 import java.util.List;
-import java.util.Random;
 
 /**
  * Created by poppypoppop on 21/12/2014.
