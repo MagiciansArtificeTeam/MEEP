@@ -1,5 +1,6 @@
-package com.meep.core.client.guis;
+package com.meep.core.client.guis.creativetabs;
 
+import com.meep.core.utils.registries.BlockRegistry;
 import com.meep.core.utils.registries.ItemRegistry;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
@@ -7,12 +8,12 @@ import net.minecraft.item.Item;
 /**
  * Created by James on 21/12/2014.
  */
-public class CreativeTab extends CreativeTabs {
-    public CreativeTab(String label) {
+public class BlockCreativeTab extends CreativeTabs {
+    public BlockCreativeTab(String label) {
         super("meepMod." + label);
     }
 
     public Item getTabIconItem() {
-        return ItemRegistry.tabIcon;
+        return Item.getItemFromBlock(BlockRegistry.lampPost);
     }
 }

@@ -1,5 +1,6 @@
 package com.meep.core.utils.registries;
 
+import com.meep.blocks.cosmetic.BlockFlat;
 import com.meep.blocks.cosmetic.BlockLampPost;
 import com.meep.blocks.worldgen.BlockDustOres;
 import com.meep.blocks.worldgen.BlockOres;
@@ -15,12 +16,14 @@ public class BlockRegistry {
     public static ArrayList<Block> blocks = new ArrayList<Block>();
     public static Block ores;
     public static Block dustOres;
+    public static Block flats;
 
     public static Block lampPost;
 
     public static void initBlocks() {
         ores = new BlockOres();
         dustOres = new BlockDustOres();
+        flats = new BlockFlat();
 
         lampPost = new BlockLampPost();
 

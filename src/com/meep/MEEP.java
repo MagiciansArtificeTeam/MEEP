@@ -1,6 +1,7 @@
 package com.meep;
 
-import com.meep.core.client.guis.CreativeTab;
+import com.meep.core.client.guis.creativetabs.BlockCreativeTab;
+import com.meep.core.client.guis.creativetabs.ItemCreativeTab;
 import com.meep.core.libs.ModInfo;
 import com.meep.core.proxies.CommonProxy;
 import com.meep.core.utils.registries.Registry;
@@ -26,8 +27,8 @@ public class MEEP {
     @SidedProxy(serverSide = ModInfo.SERVER, clientSide = ModInfo.CLIENT)
     public static CommonProxy proxy;
 
-    public static CreativeTabs itemTab = new CreativeTab("items");
-    public static CreativeTabs blocksTab = new CreativeTab("blocks");
+    public static CreativeTabs itemTab = new ItemCreativeTab("items");
+    public static CreativeTabs blocksTab = new BlockCreativeTab("blocks");
     public static File configFolder;
 
     @EventHandler

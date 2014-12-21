@@ -40,7 +40,7 @@ public class CustomItemRenderer implements IItemRenderer {
                 break;
             }
             case INVENTORY: {
-                if (item.getItem().equals(Item.getItemFromBlock(BlockRegistry.lampPost))) renderLampPost(-0.01F, 10F, 0.0F, 0.1F);
+                if (item.getItem().equals(Item.getItemFromBlock(BlockRegistry.lampPost))) renderLampPost(-0.01F, 0F, 0.0F, 0.05F);
                 break;
             }
             default:

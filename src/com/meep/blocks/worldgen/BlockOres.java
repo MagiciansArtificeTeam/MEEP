@@ -40,12 +40,12 @@ public class BlockOres extends BlockModBase {
     public void registerBlockIcons(IIconRegister ir) {
         blockIcon = ir.registerIcon("minecraft:stone");
 
-        icon[0] = ir.registerIcon(ModInfo.MODID + ":worldgen/copper_" + blockName);
-        icon[1] = ir.registerIcon(ModInfo.MODID + ":worldgen/tin_" + blockName);
-        icon[2] = ir.registerIcon(ModInfo.MODID + ":worldgen/aluminium_" + blockName);
-        icon[3] = ir.registerIcon(ModInfo.MODID + ":worldgen/lead_" + blockName);
-        icon[4] = ir.registerIcon(ModInfo.MODID + ":worldgen/silver_" + blockName);
-        icon[5] = ir.registerIcon(ModInfo.MODID + ":worldgen/nickle_" + blockName);
+        icon[0] = ir.registerIcon(ModInfo.MODID + ":ores/copper_" + blockName);
+        icon[1] = ir.registerIcon(ModInfo.MODID + ":ores/tin_" + blockName);
+        icon[2] = ir.registerIcon(ModInfo.MODID + ":ores/aluminium_" + blockName);
+        icon[3] = ir.registerIcon(ModInfo.MODID + ":ores/lead_" + blockName);
+        icon[4] = ir.registerIcon(ModInfo.MODID + ":ores/silver_" + blockName);
+        icon[5] = ir.registerIcon(ModInfo.MODID + ":ores/nickle_" + blockName);
     }
 
     @SideOnly(Side.CLIENT)
