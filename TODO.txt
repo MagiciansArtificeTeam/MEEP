@@ -1,0 +1,36 @@
+Ores
+{
+	Copper
+	Tin
+	Aluminium
+	Lead
+	Silver
+	Nickel
+	Sulfer
+}
+Trees
+{
+	Eucalyptus
+	Pine
+	...
+}
+Biomes
+{
+	Pink Auery (MUST COME BACK WITH LOW CHANCE :D)
+	Oasis
+	Flowerfield
+	Wasteland
+	...
+}
+Mod blocks
+{
+	Auto crafting table
+	Pipes
+}
+Entities
+{
+	Meep Mob
+	Lion
+	Tiger
+	Frog
+}
