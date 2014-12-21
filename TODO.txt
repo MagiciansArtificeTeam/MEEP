@@ -1,12 +1,12 @@
 Ores
 {
-	Copper
-	Tin
-	Aluminium
-	Lead
-	Silver
-	Nickel
-	Sulfer
+	Copper 		[TEXTURE DONE]	[IMPLEMENTED]
+	Tin    		[TEXTURE DONE]	[IMPLEMENTED]
+	Aluminium	[TEXTURE DONE]	[IMPLEMENTED]
+	Lead		[TEXTURE DONE] 	[IMPLEMENTED]
+	Silver		[TEXTURE DONE] 	[IMPLEMENTED]
+	Nickel		[TEXTURE DONE]	[IMPLEMENTED]
+	Sulfer		[TEXTURE DONE]	[IMPLEMENTED]
 }
 Trees
 {
