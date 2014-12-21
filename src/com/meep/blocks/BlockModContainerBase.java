@@ -13,7 +13,6 @@ public class BlockModContainerBase extends BlockModBase implements ITileEntityPr
         super(material);
     }
 
-    @Override
     public TileEntity createNewTileEntity(World world, int meta) {
         return null;
     }
