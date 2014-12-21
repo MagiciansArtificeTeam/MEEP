@@ -22,15 +22,17 @@ import java.io.File;
 public class MEEP {
     @Instance
     public MEEP instance;
+
     @SidedProxy(serverSide = ModInfo.SERVER, clientSide = ModInfo.CLIENT)
-    public CommonProxy proxy;
+    public static CommonProxy proxy;
+
     public static CreativeTabs itemTab = new CreativeTab("items");
     public static CreativeTabs blocksTab = new CreativeTab("blocks");
     public static File configFolder;
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {
-        configFolder = event.getModConfigurationDirectory();
+        configFolder = new File(event.getModConfigurationDirectory(), "/MEEP");
         Registry.initMod();
         proxy.load();
     }
