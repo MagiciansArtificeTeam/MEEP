@@ -10,7 +10,7 @@ import com.meep.items.ItemModBase;
 public class ItemSulfer extends ItemModBase {
     public ItemSulfer() {
         super();
-        this.setTextureName("meep:materials/sulfer");
+        this.setTextureName("assets.meep:materials/sulfer");
         this.setUnlocalizedName("sulfer");
         this.setCreativeTab(MEEP.itemTab);
 

@@ -8,13 +8,11 @@ import net.minecraft.item.Item;
  * Created by James on 21/12/2014.
  */
 public class CreativeTab extends CreativeTabs {
-    public Item tabIcon;
-    public CreativeTab(String label, Item item) {
+    public CreativeTab(String label) {
         super("meepMod." + label);
-        tabIcon = item;
     }
 
     public Item getTabIconItem() {
-        return tabIcon;
+        return ItemRegistry.itemTabIcon;
     }
 }

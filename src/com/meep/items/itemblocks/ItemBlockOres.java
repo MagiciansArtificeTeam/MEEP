@@ -1,5 +1,6 @@
 package com.meep.items.itemblocks;
 
+import com.meep.blocks.BlockOres;
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
@@ -18,31 +19,27 @@ public class ItemBlockOres extends ItemBlock {
         String name = "";
         switch (itemstack.getItemDamage()) {
             case 0: {
-                name = "oreCopper";
+                name = BlockOres.blockName + "Copper";
                 break;
             }
             case 1: {
-                name = "oreTin";
+                name = BlockOres.blockName + "Tin";
                 break;
             }
             case 2: {
-                name = "oreAluminium";
+                name = BlockOres.blockName + "Aluminium";
                 break;
             }
             case 3: {
-                name = "oreLead";
+                name = BlockOres.blockName + "Lead";
                 break;
             }
             case 4: {
-                name = "oreSilver";
+                name = BlockOres.blockName + "Silver";
                 break;
             }
             case 5: {
-                name = "oreNickel";
-                break;
-            }
-            case 6: {
-                name = "oreSulfer";
+                name = BlockOres.blockName + "Nickel";
                 break;
             }
             default:

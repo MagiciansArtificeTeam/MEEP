@@ -2,7 +2,6 @@ package com.meep;
 
 import com.meep.core.client.guis.CreativeTab;
 import com.meep.core.libs.ModInfo;
-import com.meep.core.utils.registries.ItemRegistry;
 import com.meep.core.utils.registries.Registry;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
@@ -23,8 +22,8 @@ public class MEEP {
 
     public Configuration config;
 
-    public static CreativeTabs itemTab = new CreativeTab("items", ItemRegistry.itemTabIcon);
-    public static CreativeTabs blocksTab = new CreativeTab("blocks", ItemRegistry.blockTabIcon);
+    public static CreativeTabs itemTab = new CreativeTab("items");
+    public static CreativeTabs blocksTab = new CreativeTab("blocks");
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {

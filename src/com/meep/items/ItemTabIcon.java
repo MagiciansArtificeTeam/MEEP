@@ -9,7 +9,7 @@ public class ItemTabIcon extends ItemModBase {
     public ItemTabIcon(String tab) {
         super();
         this.setUnlocalizedName(tab + ".tab.icon");
-        this.setTextureName("meep:" + tab + "_tab_icon");
+        this.setTextureName("assets.meep:" + tab + "_tab_icon");
 
         ItemRegistry.items.add(this);
     }
