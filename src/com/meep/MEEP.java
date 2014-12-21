@@ -1,6 +1,7 @@
 package com.meep;
 
 import com.meep.core.libs.ModInfo;
+import com.meep.core.utils.registries.Registry;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
@@ -14,7 +15,7 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 public class MEEP {
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {
-
+        Registry.initMod();
     }
 
     @EventHandler
