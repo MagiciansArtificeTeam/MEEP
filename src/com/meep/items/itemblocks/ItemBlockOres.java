@@ -1,6 +1,6 @@
 package com.meep.items.itemblocks;
 
-import com.meep.blocks.BlockOres;
+import com.meep.blocks.worldgen.BlockOres;
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;

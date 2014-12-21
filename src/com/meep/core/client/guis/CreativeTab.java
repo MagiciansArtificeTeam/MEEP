@@ -13,6 +13,6 @@ public class CreativeTab extends CreativeTabs {
     }
 
     public Item getTabIconItem() {
-        return ItemRegistry.itemTabIcon;
+        return ItemRegistry.tabIcon;
     }
 }

@@ -1,0 +1,13 @@
+itemGroup.meepMod.blocks=MEEP Blocks Tab
+itemGroup.meepMod.items=MEEP items Tab
+
+BLOCKS
+tile.ore.oreCopper.name=Copper Ore
+tile.ore.oreTin.name=Tin Ore
+tile.ore.oreAluminium.name=Aluminium Ore
+tile.ore.oreLead.name=Lead Ore
+tile.ore.oreSilver.name=Silver Ore
+tile.ore.oreNickel.name=Nickel Ore
+tile.dustOre.dustOreSulfer.name=Sulfer Ore
+
+ITEM

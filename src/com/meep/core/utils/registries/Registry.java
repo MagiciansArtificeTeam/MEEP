@@ -5,11 +5,13 @@ package com.meep.core.utils.registries;
  */
 public class Registry {
     public static void initMod() {
+        ConfigGenerator.configs();
         BlockRegistry.initBlocks();
         ItemRegistry.initItems();
         RecipeRegistry.initRecipes();
         MEEPEntityRegistry.initEntities();
         WorldGenRegistry.initWorldGens();
         FluidRegistry.initFluids();
+        TileEntityRegistry.registerTES();
     }
 }
