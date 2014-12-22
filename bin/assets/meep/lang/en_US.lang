@@ -1,5 +1,5 @@
 itemGroup.meepMod.blocks=MEEP Blocks Tab
-itemGroup.meepMod.items=MEEP items Tab
+itemGroup.meepMod.items=MEEP Items Tab
 
 BLOCKS
 tile.ore.oreCopper.name=Copper Ore

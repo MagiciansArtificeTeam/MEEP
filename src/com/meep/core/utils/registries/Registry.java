@@ -13,5 +13,6 @@ public class Registry {
         WorldGenRegistry.initWorldGens();
         FluidRegistry.initFluids();
         TileEntityRegistry.registerTES();
+        BiomeRegistry.registerBiomes();
     }
 }
