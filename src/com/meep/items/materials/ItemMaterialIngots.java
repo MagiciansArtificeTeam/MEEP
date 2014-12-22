@@ -1,11 +1,11 @@
 package com.meep.items.materials;
 
 import com.meep.MEEP;
+import com.meep.core.libs.ModInfo;
 import com.meep.core.utils.registries.ItemRegistry;
 import com.meep.items.ItemModBase;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
-import magiciansartifice.main.core.libs.ModInfo;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
