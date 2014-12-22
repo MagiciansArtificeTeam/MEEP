@@ -8,12 +8,12 @@ tile.ore.oreAluminium.name=Aluminium Ore
 tile.ore.oreLead.name=Lead Ore
 tile.ore.oreSilver.name=Silver Ore
 tile.ore.oreNickel.name=Nickel Ore
-tile.dustOre.dustOreSulfer.name=Sulfer Ore
+tile.dustOre.dustOreSulfur.name=Sulfur Ore
 tile.lamp.post.name=Lamp Post
 tile.flat.tarmac.name=Tarmac
 
 ITEM
-item.dust.sulfer.name=Sulfer Dust
+item.dust.sulfur.name=Sulfur Dust
 item.ingot.copper.name=Copper Ingot
 item.ingot.tin.name=Tin Ingot
 item.ingot.aluminium.name=Aluminium Ingot

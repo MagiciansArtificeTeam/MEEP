@@ -42,7 +42,7 @@ public class BlockDustOres extends BlockModBase {
     public void registerBlockIcons(IIconRegister ir) {
         blockIcon = ir.registerIcon("minecraft:stone");
 
-        icon[0] = ir.registerIcon(ModInfo.MODID + ":ores/sulfer_" + blockName);
+        icon[0] = ir.registerIcon(ModInfo.MODID + ":ores/sulfur_" + blockName);
     }
 
     @SideOnly(Side.CLIENT)
