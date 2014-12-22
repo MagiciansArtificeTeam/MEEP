@@ -34,7 +34,7 @@ public class ItemMaterialDust extends ItemModBase {
         String name = "";
         switch (itemstack.getItemDamage()) {
             case 0: {
-                name = "sulfer";
+                name = "sulfur";
                 break;
             }
 
@@ -53,7 +53,7 @@ public class ItemMaterialDust extends ItemModBase {
 
     @SideOnly(Side.CLIENT)
     public void registerIcons(IIconRegister ri) {
-        icon[0] = ri.registerIcon(ModInfo.MODID + ":materials/sulfer");
+        icon[0] = ri.registerIcon(ModInfo.MODID + ":materials/sulfur");
     }
 
     @SuppressWarnings({ "rawtypes", "unchecked" })
