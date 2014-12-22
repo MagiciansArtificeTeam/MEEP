@@ -19,7 +19,7 @@ public class ItemBlockDustOres extends ItemBlock {
         String name = "";
         switch (itemstack.getItemDamage()) {
             case 0: {
-                name = BlockDustOres.blockName + "Sulfer";
+                name = BlockDustOres.blockName + "Sulfur";
                 break;
             }
             default:
